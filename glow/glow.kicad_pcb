@@ -2484,11 +2484,11 @@
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
-      (tstamp 26c9a386-57ec-411c-b3a5-b34e7949097f)
+      (tstamp 86c73e16-9c05-4385-b59b-206056f7ac90)
     )
     (fp_text value "LOGO" (at 0.75 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
-      (tstamp 00e9772c-a0d2-42ed-8d55-08959651b446)
+      (tstamp b034f82f-3ce9-4423-89ad-7ecf03d348d0)
     )
     (fp_poly (pts
         (xy -2.632968 3.616308)
@@ -2862,7 +2862,7 @@
         (xy -3.358021 3.589923)
         (xy -3.08523 3.628152)
         (xy -2.928444 3.633897)
-      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 060019d3-e53a-4f26-a59a-334ca8e514d3))
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 22cb26b9-d501-4786-ab70-b7ac2868619c))
     (fp_poly (pts
         (xy -2.444174 2.329152)
         (xy -2.401597 2.309246)
@@ -2914,7 +2914,7 @@
         (xy -2.736002 2.272148)
         (xy -2.602924 2.319011)
         (xy -2.504216 2.332353)
-      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 161a3749-07c4-4811-8a9b-6e8dc1bc0127))
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp a0affae9-b1e8-4941-9e7e-2ad29ff3f86b))
     (fp_poly (pts
         (xy -0.667986 1.20609)
         (xy -0.454722 1.182317)
@@ -2943,7 +2943,7 @@
         (xy -0.969554 1.116788)
         (xy -0.93664 1.156982)
         (xy -0.876818 1.216804)
-      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp a379ebd3-baae-4444-8683-cd737f6292cd))
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp c837798c-83c8-4e02-b288-fa03714cab74))
   )
 
   (footprint "libs2:YS-SK6812MINI-E_REVERSE_NO_EDGECUT" (layer "B.Cu")
@@ -3541,6 +3541,9 @@
   (gr_text "GND" (at 49.703286 78.791475 -45) (layer "B.SilkS") (tstamp 9c379c2e-8882-476f-aa0d-71e238f1f256)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "Licensed under \nCC BY-NC-SA 4.0\nCopyright \nQuentin Lebastard 2022" (at 85.6 46.75) (layer "B.SilkS") (tstamp b6346b0a-bb01-4e48-89f7-5054374e0d0d)
+    (effects (font (size 0.8 0.8) (thickness 0.12)) (justify mirror))
+  )
   (gr_text "R" (at 47.5 80.2) (layer "B.SilkS") (tstamp bdbb21b8-7758-4d8a-b16d-0acaf1945f8d)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
@@ -3558,6 +3561,9 @@
   )
   (gr_text "DOUT" (at 121.79797 81.68 45) (layer "F.SilkS") (tstamp 4a48397e-5c05-444d-a926-21ea6c864bc0)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+  )
+  (gr_text "Licensed under \nCC BY-NC-SA 4.0\nCopyright \nQuentin Lebastard 2022" (at 85.590546 46.718756) (layer "F.SilkS") (tstamp 6793a3ff-08b6-42e1-b9fd-e5b5d7259e5d)
+    (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
   (gr_text "CNANO RGB\nBOT PLATE" (at 86.1 62.4) (layer "F.SilkS") (tstamp 745e10f0-8650-4d47-bdde-5a60e46a09f3)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
